@@ -4,7 +4,7 @@ import Footer from "../pages/Footer/Footer";
 const MainLayout = () => {
   return (
     <div>
-      <section className="flex justify-between items-center px-16 py-7 shadow-md">
+      <section className=" container mx-auto px-4 md:px-8 lg:px-16 flex justify-between items-center  py-7 shadow-md">
         <div>
           <h2 className="text-xl font-bold">Amazon</h2>
         </div>
@@ -23,7 +23,7 @@ const MainLayout = () => {
         </nav>
       </section>
 
-      <div className="min-h-screen">
+      <div className="min-h-screen container mx-auto px-4 md:px-8 lg:px-16 py-4 my-12">
         <Outlet></Outlet>
           </div>
           <Footer></Footer>
